@@ -18,6 +18,8 @@ function Page() {
             'Model Seven',
           ].map(modelName =>(
             <ModelSection 
+
+            key={modelName}
             className="colored"
             modelName = "Model One"
             overlayNode={
