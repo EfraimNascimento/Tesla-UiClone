@@ -9,13 +9,13 @@ function Page() {
       <ModelsWrapper>
         <div>
           {[
-            'Model One',
             'Model Two',
+            /*  'Model One',
             'Model Three',
             'Model Four',
             'Model Five',
             'Model Six',
-            'Model Seven',
+            'Model Seven', */
           ].map(modelName =>(
             <ModelSection 
 
@@ -24,7 +24,7 @@ function Page() {
             modelName = "Model One"
             overlayNode={
               <DefaultOverlayContent 
-                label ="Model One"
+                label ={modelName}
                 description="Order Online for Delivery"
               />
             }
