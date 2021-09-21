@@ -10,12 +10,12 @@ function Page() {
         <div>
           {[
             'Model Two',
-            /*  'Model One',
+            'Model One',
             'Model Three',
             'Model Four',
             'Model Five',
             'Model Six',
-            'Model Seven', */
+            'Model Seven', 
           ].map(modelName =>(
             <ModelSection 
 
