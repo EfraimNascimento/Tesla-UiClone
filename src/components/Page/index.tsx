@@ -1,7 +1,8 @@
-import { Container } from './styles';
+import { Container, Spacer } from './styles';
 import React from 'react';
 import DefaultOverlayContent from '../DefaultOverlayContent';
 import { ModelSection, ModelsWrapper } from '../Model';
+import UniqueOverlay from '../UniqueOverlay';
 
 function Page() {
   return (
@@ -33,6 +34,11 @@ function Page() {
           ))}
           
         </div>
+
+            <Spacer />
+
+          <UniqueOverlay />
+
       </ModelsWrapper>      
     </Container>
   );
